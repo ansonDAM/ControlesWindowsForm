@@ -51,45 +51,48 @@
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(41, 26);
+            this.groupBox1.Location = new System.Drawing.Point(36, 20);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(693, 125);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(606, 94);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dirección de facturación";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(141, 74);
+            this.textBox2.Location = new System.Drawing.Point(123, 56);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(518, 27);
+            this.textBox2.Size = new System.Drawing.Size(454, 23);
             this.textBox2.TabIndex = 3;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(141, 33);
+            this.textBox1.Location = new System.Drawing.Point(123, 25);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(518, 27);
+            this.textBox1.Size = new System.Drawing.Size(454, 23);
             this.textBox1.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 77);
+            this.label2.Location = new System.Drawing.Point(26, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 20);
+            this.label2.Size = new System.Drawing.Size(63, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Población:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 33);
+            this.label1.Location = new System.Drawing.Point(26, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 20);
+            this.label1.Size = new System.Drawing.Size(60, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dirección:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox2
             // 
@@ -98,9 +101,11 @@
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(41, 190);
+            this.groupBox2.Location = new System.Drawing.Point(36, 142);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(693, 146);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(606, 110);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dirección de envío";
@@ -108,9 +113,10 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(141, 26);
+            this.checkBox1.Location = new System.Drawing.Point(123, 20);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(263, 24);
+            this.checkBox1.Size = new System.Drawing.Size(210, 19);
             this.checkBox1.TabIndex = 9;
             this.checkBox1.Text = "Enviar a la dirección de facturación";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -118,43 +124,46 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(141, 97);
+            this.textBox3.Location = new System.Drawing.Point(123, 73);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(518, 27);
+            this.textBox3.Size = new System.Drawing.Size(454, 23);
             this.textBox3.TabIndex = 7;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(141, 56);
+            this.textBox4.Location = new System.Drawing.Point(123, 42);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(518, 27);
+            this.textBox4.Size = new System.Drawing.Size(454, 23);
             this.textBox4.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 56);
+            this.label4.Location = new System.Drawing.Point(26, 42);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 20);
+            this.label4.Size = new System.Drawing.Size(60, 15);
             this.label4.TabIndex = 4;
             this.label4.Text = "Dirección:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 100);
+            this.label3.Location = new System.Drawing.Point(26, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 20);
+            this.label3.Size = new System.Drawing.Size(63, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Población:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(776, 362);
+            this.ClientSize = new System.Drawing.Size(679, 272);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Checkbox";
             this.groupBox1.ResumeLayout(false);
