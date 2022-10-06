@@ -9,8 +9,16 @@ namespace Pr0216
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
             Form2 form2 = new Form2();
-            form2.ShowDialog();
+            if (form2.ShowDialog().Equals(DialogResult.OK))
+            {
+                
+            } else
+            {
+                MessageBox.Show("Operación cancelada por el usuario.");
+            }
         }
     }
 }
