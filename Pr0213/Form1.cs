@@ -9,8 +9,9 @@ namespace Pr0213
 
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            this.Show();
             this.WindowState = FormWindowState.Normal;
+            notifyIcon1.Visible = false;
         }
 
         private void Form1_Resize(object sender, EventArgs e)
@@ -18,6 +19,7 @@ namespace Pr0213
             if (this.WindowState == FormWindowState.Minimized)
             {
                 notifyIcon1.Visible = true;
+                this.Hide();
             }
         }
     }
