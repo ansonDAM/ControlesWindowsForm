@@ -13,7 +13,7 @@ namespace Pr0216
     
     public partial class Form2 : Form
     {
-        private string _msg { get; set; }
+        public string _msg { get; set; }
         public Form2()
         {
             InitializeComponent();

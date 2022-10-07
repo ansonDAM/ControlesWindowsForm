@@ -14,7 +14,7 @@ namespace Pr0216
             Form2 form2 = new Form2();
             if (form2.ShowDialog().Equals(DialogResult.OK))
             {
-                
+                label1.Text = form2._msg;
             } else
             {
                 MessageBox.Show("Operación cancelada por el usuario.");
