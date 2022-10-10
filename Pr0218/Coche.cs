@@ -8,9 +8,9 @@ namespace Pr0218
 {
     internal class Coche
     {
-        public string Marca;
-        public string Modelo;
-        public double Precio;
+        public string Marca { get; set; }
+        public string Modelo { get;set; }
+        public double Precio { get; set; }
 
     }
 }
