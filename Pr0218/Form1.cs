@@ -32,15 +32,21 @@ namespace Pr0218
 
         private void CargarListaFiltradaOrdenada(object sender, EventArgs e)
         {
-            if (!textBox1.Text.Equals(""))
-            {
-                dataGridView1.DataSource = _coches.Where(x => x.Marca.ToUpper().Contains(textBox1.Text.ToUpper())).ToList();
-            }
             if (radioButton2.Checked)
             {
                 dataGridView1.DataSource = _coches.OrderByDescending(x => x.Precio).ToList();
             }
             if (radioButton1.Checked)
+            {
+                dataGridView1.DataSource = _coches.OrderBy(x => x.Precio).ToList();
+            }
+        }
+        private void OrdenarPorTextBox(object sender, EventArgs e)
+        {
+            if (!textBox1.Text.Equals(""))
+            {
+                dataGridView1.DataSource = _coches.Where(x => x.Marca.ToUpper().Contains(textBox1.Text.ToUpper())).ToList();
+            } else
             {
                 dataGridView1.DataSource = _coches.OrderBy(x => x.Precio).ToList();
             }
