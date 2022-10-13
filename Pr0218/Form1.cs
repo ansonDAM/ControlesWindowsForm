@@ -27,7 +27,7 @@ namespace Pr0218
             _coches.Add(seat);
             _coches.Add(dacia);
             _coches.Add(mercedes);  
-            dataGridView1.DataSource = _coches.OrderBy(x => x.Precio).ToList();
+            dataGridView1.DataSource = _coches.ToList();
         }
 
         private void CargarListaFiltradaOrdenada(object sender, EventArgs e)
